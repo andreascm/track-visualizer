@@ -5,7 +5,13 @@
     "start": "meteor run"
   },
   "babel": {
-    "plugins": ["transform-class-properties"]
+    "plugins": [
+      "transform-class-properties"
+    ]
+  },
+  "engines": {
+    "node": "7.5.0",
+    "npm": "^4.2.0"
   },
   "dependencies": {
     "axios": "^0.15.3",
@@ -13,6 +19,7 @@
     "babel-runtime": "^6.18.0",
     "material-ui": "^0.16.5",
     "meteor-node-stubs": "^0.2.4",
+    "mup": "^1.2.8",
     "polyline": "^0.2.0",
     "react": "^15.4.1",
     "react-addons-pure-render-mixin": "^15.4.1",
