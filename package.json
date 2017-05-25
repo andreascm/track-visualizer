@@ -4,6 +4,9 @@
   "scripts": {
     "start": "meteor run"
   },
+  "babel": {
+    "plugins": ["transform-class-properties"]
+  },
   "dependencies": {
     "axios": "^0.15.3",
     "babel-plugin-transform-class-properties": "^6.19.0",
